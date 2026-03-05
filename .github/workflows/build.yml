@@ -22,9 +22,6 @@ jobs:
           - os: ubuntu-latest
             arch: linux-x86_64
             artifact_name: ocrCaptchaMnn
-          - os: windows-latest
-            arch: windows-x86_64
-            artifact_name: ocrCaptchaMnn.exe
     runs-on: ${{ matrix.os }}
     
     steps:
